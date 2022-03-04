@@ -16,7 +16,6 @@
     # DEVELOPMENT
     nixfmt
     nodejs
-    python37
     python310
   ];
 

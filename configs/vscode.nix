@@ -12,8 +12,8 @@
         {
           name = "solidity";
           publisher = "juanblanco";
-          version = "0.0.125";
-          sha256 = "1kq79hgm0v5ivc7plkxh7riinij3vvw68xy5wl2yi2z2n98nylx2";
+          version = "0.0.137";
+          sha256 = "sha256-TyqCFFsHznDEM0BnLD6Ni54SrSFpNEESWxAWE6kv29M=";
         }
         {
           name = "cmake-tools";
@@ -72,29 +72,23 @@
           sha256 = "08lhzhrn6p0xwi0hcyp6lj9bvpfj87vr99klzsiy8ji7621dzql3";
         }
         {
-          name = "docs-yaml";
-          publisher = "docsmsft";
-          version = "0.2.6";
-          sha256 = "0fsvq77sdp7wln7xfc1yy3x30pdvk2rgy056i3vlrgvlk8gbzi2n";
-        }
-        {
           name = "markdown-preview-enhanced";
           publisher = "shd101wyy";
-          version = "0.5.16";
-          sha256 = "0w5w2np8fkxpknq76yv8id305rxd8a1p84p9k0jwwwlrsyrz31q8";
+          version = "0.6.2";
+          sha256 = "sha256-tjRXAoUS63d2hsiL2a528+hQeal8pKP1eTnkf/qiUQo=";
         }
 
         # Theme
         {
           name = "material-icon-theme";
           publisher = "PKief";
-          version = "4.10.0";
-          sha256 = "119zpdx2hx9d1xb3d9d773b88i2awr62ivmmnhxm9zp77x9y6b70";
+          version = "4.14.1";
+          sha256 = "sha256-OHXi0EfeyKMeFiMU5yg0aDoWds4ED0lb+l6T12XZ3LQ=";
         }
         {
           name = "github-vscode-theme";
           publisher = "github";
-          version = "3.0.0";
+          version = "6.0.0";
           sha256 = "1a77mbx75xfsfdlhgzghj9i7ik080bppc3jm8c00xp6781987fpa";
         }
 

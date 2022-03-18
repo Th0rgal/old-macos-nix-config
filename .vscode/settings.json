@@ -1,3 +1,0 @@
-{
-    "nixEnvSelector.nixShellConfig": "${workspaceRoot}/home.nix"
-}

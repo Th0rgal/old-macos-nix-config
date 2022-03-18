@@ -114,13 +114,17 @@
         autoDetectColorScheme = true;
         menuBarVisibility = "toggle";
       };
-      terminal.integrated.shell.linux = "${pkgs.zsh}/bin/zsh";
+      terminal.integrated.shell = {
+        linux = "${pkgs.zsh}/bin/zsh";
+        osx = "${pkgs.zsh}/bin/zsh";
+      };
 
       editor = {
         fontFamily =
           "'JetBrainsMono Nerd Font Mono', 'monospace', monospace, 'Droid Sans Fallback'";
         fontSize = 13.5;
         fontLigatures = true;
+        inlineSuggest.enabled = true;
       };
 
       workbench = {
@@ -141,9 +145,6 @@
       latex-workshop.view.pdf.viewer = "tab";
       cmake.configureOnOpen = false;
       python.formatting.provider = "black";
-      "[ocaml]" = {
-        editor.defaultFormatter = "hoddy3190.ocamlformat-vscode-extension";
-      };
     };
   };
 }

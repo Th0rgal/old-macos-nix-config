@@ -20,8 +20,8 @@
     zsh = {
       enable = true;
       initExtraFirst = ''
-        # Don't execute this file when running in a pure nix-shell.
-        if test -n "$IN_NIX_SHELL"; then return; fi
+        # to not execute this file when running in a pure nix-shell.
+        # if test -n "$IN_NIX_SHELL"; then return; fi
 
         [ ! -d "$HOME/.zsh/fsh/" ] && mkdir $HOME/.zsh/fsh/
         export FAST_WORK_DIR=$HOME/.zsh/fsh/;

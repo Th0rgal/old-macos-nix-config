@@ -9,8 +9,11 @@
 
     userSettings = {
       update.mode = "none";
-      window.zoomLevel = 0;
-
+      window = {
+        zoomLevel = 0;
+        autoDetectColorScheme = true;
+        menuBarVisibility = "toggle";
+      };
       terminal.integrated.shell = {
         linux = "${pkgs.zsh}/bin/zsh";
         osx = "${pkgs.zsh}/bin/zsh";
@@ -48,7 +51,7 @@
       #  editor.defaultFormatter = "hoddy3190.ocamlformat-vscode-extension";
       #};
       "[css]" = { editor.defaultFormatter = "MikeBovenlander.formate"; };
-      window.menuBarVisibility = "toggle";
+
       files.exclude = {
         "**/.git" = true;
         "**/.svn" = true;

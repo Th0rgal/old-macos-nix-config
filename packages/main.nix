@@ -4,6 +4,7 @@
   home.packages = with pkgs; [
     # MISC
     tmate
+    pkg-config
 
     # TERMINAL
     htop

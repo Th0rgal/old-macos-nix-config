@@ -61,6 +61,7 @@
         "**/Thumbs.db" = true;
         "**/*.olean" = true;
       };
+      javascript.updateImportsOnFileMove.enabled = "always";
     };
   };
 }

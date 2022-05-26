@@ -26,7 +26,8 @@
         [ ! -d "$HOME/.zsh/fsh/" ] && mkdir $HOME/.zsh/fsh/
         export FAST_WORK_DIR=$HOME/.zsh/fsh/;
         export PATH=$PATH:~/.npm-global/bin;
-        '';
+        export PATH=$PATH:~/.protostar/dist/protostar/;
+      '';
       plugins = [
         {
           name = "zsh-autosuggestions";

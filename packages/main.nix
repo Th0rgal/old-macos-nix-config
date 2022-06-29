@@ -17,7 +17,6 @@
     # DEVELOPMENT
     nixfmt
     nodejs
-    python310
   ];
 
 }

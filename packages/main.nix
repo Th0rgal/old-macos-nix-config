@@ -1,6 +1,8 @@
 { pkgs, ... }:
 
 {
+  imports = [ ./alacritty.nix ];
+
   home.packages = with pkgs; [
     # MISC
     tmate
@@ -17,6 +19,7 @@
     # DEVELOPMENT
     nixfmt
     nodejs
+    poetry
   ];
 
 }
